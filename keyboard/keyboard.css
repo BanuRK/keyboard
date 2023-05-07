@@ -1,0 +1,108 @@
+*{
+    border: 2px transparent;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(43, 31, 31);
+}
+h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(122, 86, 86);
+    color: rgb(220, 220, 230);
+    text-align: center;
+    
+}
+h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px;
+    color: rgb(220, 220, 230) ;
+    text-shadow: 2px 2px rgb(122, 86, 86);
+}
+p{
+    
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: 900;
+    
+}  
+.table{
+    border: 2px solid transparent;
+}
+.centeringtable{   
+    width:fit-content;
+    height: fit-content; 
+    
+}
+.centeringtable table{
+    border: 2px solid rgb(220, 220, 230);;
+   box-shadow: 0px 0px 10px rgb(122, 86, 86);
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+table td{
+    width: 25%;  
+}
+.centeringtable table td{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    border: 2px solid rgb(220, 220, 230);
+    background-color: rgb(220, 220, 230);
+    border-radius: 10px;
+}
+td:nth-child(15){
+    text-align: center;
+}
+td:nth-child(16){
+    text-align: center;
+}
+td:nth-child(17){
+    text-align: center;
+}
+td:nth-child(18){
+    text-align: center;
+}
+td:nth-child(19){
+    text-align: center;
+}
+td:nth-child(34){
+    text-align: center;
+}
+td:nth-child(35){
+    text-align: center;
+}
+td:nth-child(36){
+    text-align: center;
+}
+td:nth-child(37){
+    text-align: center;
+}
+td:nth-child(38){
+    text-align: center;
+}
+#data{
+    text-align: center;
+}
+#thirdrowdata{
+    text-align: center;
+}
+#fourthrowdata{
+    text-align: center;  
+}
+#fifthrowdata{
+    text-align: center;
+}
+.sixthrow{
+    text-align: center;
+}
+tr td:hover{
+  background-color:palevioletred;
+}
+tr td{
+    box-shadow: -2px 2px rgb(122, 86, 86);
+}
